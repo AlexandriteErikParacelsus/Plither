@@ -9,7 +9,7 @@ var gConfig = false;
 // Configs values
 var countServers = 1;
 
-// Run PlitherWeb
+// Run PlitherWeb 
 process.argv.forEach(function(val) {
 	if ( val == '--client' ) {
 		runClient = true;
